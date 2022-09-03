@@ -28,26 +28,26 @@ const LoginForm = () => {
 
           <form action="">
             <div className="w-full grid gap-8">
-              <div className="py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color ">
+              <div className="py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color lg:py-3">
                 <input
                   type="text"
                   placeholder="Email"
                   name="email"
-                  className="bg-transparent outline outline-0 focus:outline-none sm:text-sm"
+                  className="bg-transparent outline outline-0 focus:outline-none sm:text-sm lg:placeholder:text-xl"
 
                 />
               </div>
-              <div className="flex justify-between py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color">
+              <div className="flex justify-between py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color lg:py-3">
                 <input
                   type="text"
                   placeholder="Password"
                   name="password"
-                  className="bg-transparent w-5/6 outline outline-0 focus:outline-none "
+                  className="bg-transparent w-5/6 outline outline-0 focus:outline-none lg:placeholder:text-xl"
                 />
                 <span className="text-primary-color font-semibold">SHOW</span>
               </div>
               <div>
-                <button className="text-center w-full bg-primary-color py-2 px-5 text-white rounded">Register</button>
+                <button className="text-center w-full bg-primary-color py-2 px-5 text-white rounded lg:py-3 lg:text-xl">Register</button>
               </div>
 
               <Link href="#">
