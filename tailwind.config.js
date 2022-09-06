@@ -28,7 +28,10 @@ module.exports = {
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
-    
+    fontFamily : {
+      laro : ['Laro', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
+    },
   },
   plugins: [],
 }

@@ -20,15 +20,15 @@ const Navbar = () => {
 
       </div>
       <div className='flex basis-1/4 gap-8 justify-center'> 
-        <button>Login</button>
-        <button className='bg-[#FFD747] rounded-2xl w-[100px] p-1 my-auto'>Sign up</button>
+        <button className='font-normal font-inter'>Login</button>
+        <button className='bg-[#FFD747] rounded-2xl w-[100px] p-1 my-auto font-bold font-inter'>Sign up</button>
         <Image src="/img/nav-icon.svg" alt="" width={20} height={20}/>
 
 
       </div>
     </div>
 
-    <div className='flex flex-row justify-between bg-primary-color  p-4 lg:hidden md:hidden'>
+    <div className='flex flex-row justify-between bg-primary-color p-4 lg:hidden md:hidden'>
         <div className='flex flex-row gap-2 items-center'>
           <div className='flex items-center'>
           <Image src="/img/mobileNavIcon.svg" alt="" width={30} height={30}/>

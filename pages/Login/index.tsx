@@ -12,8 +12,8 @@ const LoginForm = () => {
         {/* <div className="m-auto p-7 w-[90%] flex flex-col items-center rounded-3xl lg:drop-shadow-2xl"> */}
         <div className="m-auto p-7 w-[90%] flex flex-col items-center rounded-3xl lg:shadow-[0_2px_5px_2px_rgba(0,0,0,0.08)] lg:px-[4%] lg:py-[5%] lg:w-[39%]">
 
-          <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3">Welcome back! 👋</h1>
-          <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6">Let's build someting great</p>
+          <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3 font-laro font-semi-bold">Welcome back! 👋</h1>
+          <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6 font-inter font-normal">Let's build someting great</p>
           <div className="flex flex-row gap-5 p-5 pb-1">
               
               <Link href="#"><a className="shadow py-2 h-30 w-30 px-3 pb-1 rounded-lg  lg:py-4 lg:px-6"><Image src="/img/search 1.svg" alt="" width={20} height={20}/></a></Link>
@@ -23,7 +23,7 @@ const LoginForm = () => {
          
           <div className="w-full relative flex flex-row py-5 justify-center items-center">
               <div className="flex-grow border-t border-[#d9dfe4]"></div>
-              <span className="flex-shrink mx-4 text-[#6C757D]">OR</span>
+              <span className="flex-shrink mx-4 text-[#6C757D] font-inter font-normal">OR</span>
               <div className="flex-grow border-t border-[#d9dfe4]"></div>
           </div>
 
@@ -34,21 +34,21 @@ const LoginForm = () => {
                   type="text"
                   placeholder="Email"
                   name="email"
-                  className="bg-transparent outline outline-0 focus:outline-none sm:text-sm lg:placeholder:text-xl"
+                  className="bg-transparent outline outline-0 focus:outline-none sm:text-sm lg:placeholder:text-xl font-inter font-normal"
 
                 />
               </div>
-              <div className="flex justify-between py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color lg:py-3">
+              <div className="flex justify-between py-2 px-5 border-2 border-[#CED4DA] rounded hover:border-primary-color lg:py-3 font-inter font-normal">
                 <input
                   type="text"
                   placeholder="Password"
                   name="password"
                   className="bg-transparent w-5/6 outline outline-0 focus:outline-none lg:placeholder:text-xl"
                 />
-                <span className="text-primary-color font-semibold">SHOW</span>
+                <span className="text-primary-color font-inter font-semibold">SHOW</span>
               </div>
               <div>
-                <button className="text-center w-full bg-primary-color py-2 px-5 text-white rounded lg:py-3 lg:text-xl">Register</button>
+                <button className="text-center w-full bg-primary-color py-2 px-5 text-white rounded lg:py-3 lg:text-xl font-inter font-normal">Login</button>
               </div>
 
               <Link href="#">

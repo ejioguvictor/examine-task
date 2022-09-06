@@ -10,8 +10,8 @@ const SignupForm = () => {
     <Navbar />
       <div className="flex justify-center pt-[50px] pb-[100px] ">
         <div className="m-auto p-7 w-[90%] flex flex-col items-center rounded-3xl lg:shadow-[0_2px_5px_2px_rgba(0,0,0,0.08)] lg:px-[4%] lg:py-[5%] lg:w-[39%]">
-          <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3">Create your account</h1>
-          <p className="text-sm leading-6 text-examine-gray lg:text-[16px] lg:pb-6">It Includes a free 2 weeks trial!</p>
+          <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3 font-laro font-semi-bold">Create your account</h1>
+          <p className="text-sm leading-6 text-examine-gray lg:text-[16px] lg:pb-6 font-inter font-normal">It Includes a free 2 weeks trial!</p>
           <div className="flex flex-row gap-5 p-5 pb-2 lg:pb-1">
               
               <Link href="#"><a className="shadow py-2 h-30 w-30 px-3 pb-1 rounded-lg  lg:py-4 lg:px-6"><Image src="/img/search 1.svg" alt="" width={20} height={20}/></a></Link>
@@ -21,7 +21,7 @@ const SignupForm = () => {
          
           <div className="w-full relative flex flex-row py-5 justify-center items-center">
               <div className="flex-grow border-t border-[#d9dfe4]"></div>
-              <span className="flex-shrink mx-4 text-[#6C757D]">OR</span>
+              <span className="flex-shrink mx-4 text-[#6C757D] font-inter font-normal">OR</span>
               <div className="flex-grow border-t border-[#d9dfe4]"></div>
           </div>
 
@@ -51,10 +51,10 @@ const SignupForm = () => {
                   name="password"
                   className="bg-transparent w-5/6 outline outline-0 focus:outline-none lg:placeholder:text-xl"
                 />
-                <span className="text-primary-color font-semibold">SHOW</span>
+                <span className="text-primary-color font-inter font-semibold">SHOW</span>
               </div>
               <div>
-                <button className="text-center w-full bg-primary-color py-2 px-5 text-white rounded lg:py-3 lg:text-xl font-light">Start your 2-weeks free trial!</button>
+                <button className="text-center w-full bg-[#5E3B76] py-2 px-5 text-white rounded lg:py-3 lg:text-xl font-light font-inter">Start your 2-weeks free trial!</button>
               </div>
             </div>
           </form>
