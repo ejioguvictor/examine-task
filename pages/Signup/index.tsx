@@ -13,7 +13,6 @@ const SignupForm = () => {
           <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3">Create your account</h1>
           <p className="text-sm leading-6 text-examine-gray lg:text-[16px] lg:pb-6">It Includes a free 2 weeks trial!</p>
           <div className="flex flex-row gap-5 p-5 pb-2 lg:pb-1">
-              {/* <div className="shadow p-2"><Image src="" alt="" /></div> */}
               
               <Link href="#"><a className="shadow py-2 h-30 w-30 px-3 pb-1 rounded-lg  lg:py-4 lg:px-6"><Image src="/img/search 1.svg" alt="" width={20} height={20}/></a></Link>
               <Link href="#"><a className="shadow py-2 px-3 pb-1 rounded-lg lg:py-4 lg:px-6"><Image src="/img/path4.svg" alt="" width={20} height={20}/></a></Link>

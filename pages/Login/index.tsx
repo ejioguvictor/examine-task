@@ -13,7 +13,6 @@ const LoginForm = () => {
           <h1 className="font-serif text-xl pb-2 lg:text-5xl lg:pb-6">Welcome back! 👋</h1>
           <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6">Let's build something great</p>
           <div className="flex flex-row gap-5 p-5 pb-2">
-              {/* <div className="shadow p-2"><Image src="" alt="" /></div> */}
               
               <Link href="#"><a className="shadow py-2 h-30 w-30 px-3 pb-1 rounded-lg  lg:py-4 lg:px-6"><Image src="/img/search 1.svg" alt="" width={20} height={20}/></a></Link>
               <Link href="#"><a className="shadow py-2 px-3 pb-1 rounded-lg lg:py-4 lg:px-6"><Image src="/img/path4.svg" alt="" width={20} height={20}/></a></Link>
