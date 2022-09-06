@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from 'next/link'
 import Image from 'next/image'
@@ -10,7 +11,7 @@ const LoginForm = () => {
       <div className="flex justify-center pt-[50px] pb-[100px] ">
         <div className="m-auto p-7 w-[90%]  flex flex-col items-center rounded-3xl lg:drop-shadow-2xl">
           <h1 className="font-serif text-xl pb-2 lg:text-5xl lg:pb-6">Welcome back! 👋</h1>
-          <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6">Let's build something great</p>
+          <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6">Let's build someting great</p>
           <div className="flex flex-row gap-5 p-5 pb-2">
               
               <Link href="#"><a className="shadow py-2 h-30 w-30 px-3 pb-1 rounded-lg  lg:py-4 lg:px-6"><Image src="/img/search 1.svg" alt="" width={20} height={20}/></a></Link>

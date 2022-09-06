@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <>
-    {/* <div className='flex border-x-4 border-red-500 shadow-[0_0px_4px_0px_rgba(0,0,0,0.18)] content-center sm:hidden md:hidden '>
+    <div className='md:flex sm:hidden none:hidden  shadow-[0_0px_4px_0px_rgba(0,0,0,0.18)]'>
       <div className="text-left font-bold basis-1/4 items-center my-auto pl-8">
         <span className="text-primary-color text-2xl">Examine</span>
       </div>
@@ -26,9 +26,9 @@ const Navbar = () => {
 
 
       </div>
-    </div> */}
+    </div>
 
-    <div className='flex flex-row justify-between bg-primary-color  p-4'>
+    <div className='flex flex-row justify-between bg-primary-color  p-4 lg:hidden md:hidden'>
         <div className='flex flex-row gap-2 items-center'>
           <div className='flex items-center'>
           <Image src="/img/mobileNavIcon.svg" alt="" width={30} height={30}/>
