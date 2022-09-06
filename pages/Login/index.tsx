@@ -7,8 +7,8 @@ const LoginForm = () => {
   return (
     <>
      <Navbar />
-      <div className="flex justify-center align-center h-screen">
-        <div className="m-auto p-7  flex flex-col items-center rounded-3xl lg:drop-shadow-2xl">
+      <div className="flex justify-center pt-[50px] pb-[100px] ">
+        <div className="m-auto p-7 w-[90%]  flex flex-col items-center rounded-3xl lg:drop-shadow-2xl">
           <h1 className="font-serif text-xl pb-2 lg:text-5xl lg:pb-6">Welcome back! 👋</h1>
           <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6">Let's build something great</p>
           <div className="flex flex-row gap-5 p-5 pb-2">

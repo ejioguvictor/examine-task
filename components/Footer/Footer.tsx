@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='bg-[#5E3B76] text-white p-5 lg:p-20 lg:px-50 text-start place-content-center'>
         <div className='lg:w-5/6 xl:m-auto lg:p-5 md:p-5'>
         <h1 className='text-3xl leading-9 py-4'>Examine</h1>
-          <div className="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 gap-[6rem] ">
+          <div className="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 lg:gap-[6rem] ">
             <div className='col-span-1 lg:col-span-2 p-2'>
             <h1 className='font-medium text-xl py-300'> <Link href="#"><a>Never miss an update!</a></Link> </h1>
               <p className='font-light text-[#E2D9F3] w-80 text-start leading-8'>We are always updating our research and adding new stuff. Sign-up and always stay on top of our updates!</p>
