@@ -1,13 +1,12 @@
 import React from "react";
 import Link from 'next/link'
 import Image from 'next/image'
+import Navbar from "../../components/Navbar/Navbar";
 
 const LoginForm = () => {
   return (
     <>
-      <div className="text-left" font-bold>
-        <span className="text-primary-color p-4 hover:p-8">Examine</span>
-      </div>
+     <Navbar />
       <div className="flex justify-center align-center h-screen">
         <div className="m-auto p-7  flex flex-col items-center rounded-3xl lg:drop-shadow-2xl">
           <h1 className="font-serif text-xl pb-2 lg:text-5xl lg:pb-6">Welcome back! 👋</h1>
