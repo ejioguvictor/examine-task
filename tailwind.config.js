@@ -16,6 +16,7 @@ module.exports = {
       'trial-text': '#1B818C',
       
     },
+    
   },
   plugins: [],
 }

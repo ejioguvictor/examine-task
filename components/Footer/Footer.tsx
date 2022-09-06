@@ -12,11 +12,16 @@ const Footer = () => {
             <div className='col-span-1 lg:col-span-2 p-2'>
             <h1 className='font-medium text-xl py-300'> <Link href="#"><a>Never miss an update!</a></Link> </h1>
               <p className='font-light text-[#E2D9F3] w-80 text-start leading-8'>We are always updating our research and adding new stuff. Sign-up and always stay on top of our updates!</p>
-              <div className='flex flex-row gap-8'>
-                <p>Your Email Address</p>
-                <Image className='' src="/img/searchIcon.svg" alt="" width={20} height={20}/>
-
+              
+              <form action="">
+              <div className='flex  flex-row justify-around items-center border-2 w-[80%] rounded-full p-2 px-0 gap-8  my-5'>
+                <input type="text" placeholder='Your Email Address' className='bg-transparent outline-0' />
+                <div className='h-[45px] w-[45px] rounded-full bg-white flex justify-center items-center'>
+                <Image  src="/img/arrow.svg" alt="" width={20} height={20}/>
+                </div>
               </div>
+              </form>
+
             </div>
             <div className='leading-8 col-span-1 lg:col-span-1 p-2'>
               <h1 className='font-medium text-xl leading-9 whitespace-nowrap'> <Link href="#"><a>About Us</a></Link> </h1>
@@ -42,8 +47,8 @@ const Footer = () => {
             </div>
           </div>
           <div className='lg:flex flex-row py-10 w-[90%] text-[#E2D9F3] leading-5 justify-between'>
-            <p  className='text-center my-5'>Copyright 2010 - 2021 Examine Inc.</p>
-            <p className='text-center '>Privacy Policy  I  Website Terms</p>
+            <p  className='text-center my-2'>Copyright 2010 - 2021 Examine Inc.</p>
+            <p className='text-center  my-2'>Privacy Policy  I  Website Terms</p>
           </div>
         </div>
       
