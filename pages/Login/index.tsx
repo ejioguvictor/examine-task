@@ -9,7 +9,6 @@ const LoginForm = () => {
     <>
      <Navbar />
       <div className="flex justify-center pt-[50px] pb-[100px] ">
-        {/* <div className="m-auto p-7 w-[90%] flex flex-col items-center rounded-3xl lg:drop-shadow-2xl"> */}
         <div className="m-auto p-7 w-[90%] flex flex-col items-center rounded-3xl lg:shadow-[0_2px_5px_2px_rgba(0,0,0,0.08)] lg:px-[4%] lg:py-[5%] lg:w-[39%]">
 
           <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3 font-laro font-semi-bold">Welcome back! 👋</h1>
