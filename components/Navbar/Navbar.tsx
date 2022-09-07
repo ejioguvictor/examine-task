@@ -1,12 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <>
       <div className="md:flex sm:hidden none:hidden  shadow-[0_0px_4px_0px_rgba(0,0,0,0.18)]">
-        <div className="text-left font-bold basis-1/4 items-center my-auto pl-8">
+        <div className="text-left font-bold basis-1/4 items-center my-auto pl-8  cursor-pointer">
+          <Link href='/'>
           <span className="text-primary-color text-2xl">Examine</span>
+          </Link>
         </div>
         <div className="flex flex-row gap-x-4 text-[#5E3B76] underline decoration-primary-color-400/30 text-base basis-1/2 py-6 px-3 bg-[#F6F6F6]">
           <Image src="/img/searchIcon.svg" alt="" width={20} height={20} />
@@ -19,10 +22,14 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex basis-1/4 gap-8 justify-center">
+          <Link href='/Login'>
           <button className="font-normal font-inter">Login</button>
+          </Link>
+          <Link href='/Signup'>
           <button className="bg-[#FFD747] rounded-2xl w-[100px] p-1 my-auto font-bold font-inter">
             Sign up
           </button>
+          </Link>
           <Image src="/img/nav-icon.svg" alt="" width={20} height={20} />
         </div>
       </div>

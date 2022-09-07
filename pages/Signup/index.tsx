@@ -19,7 +19,7 @@ const SignupForm = () => {
           <h1 className="font-serif text-xl pb-2 lg:text-4xl lg:pb-3 font-laro font-semi-bold">
             Create your account
           </h1>
-          <p className="text-sm leading-6 text-examine-gray lg:text-[16px] lg:pb-6 font-inter font-normal">
+          <p className="text-sm leading-6 text-examine-gray lg:text-xl lg:pb-6 font-inter font-normal">
             It Includes a free 2 weeks trial!
           </p>
           <div className="flex flex-row gap-5 p-5 pb-2 lg:pb-1">
